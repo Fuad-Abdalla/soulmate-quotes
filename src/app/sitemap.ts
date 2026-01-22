@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPostsMeta } from "@/lib/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://vercel.com/fuad-abdallas-projects/soulmate-quotes/3Urwoi5N1P8ZqtJtE3mrsmAWQphC"; // change after deploy
+const baseUrl = "https://soulmate-quotes.vercel.app";
 
   const posts = getAllPostsMeta();
 
