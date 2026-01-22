@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   description:
     "SoulMate Quotes — daily love quotes, soulmate lines, and relationship wisdom.",
   robots: { index: true, follow: true },
+  verification: {
+    google: "TaX5MnStJbp3AT_W_glrJjXNq026cszycAY3U1J6Bsk",
+  },
 };
+
 
 export default function RootLayout({
   children,
